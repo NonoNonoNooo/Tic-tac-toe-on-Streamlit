@@ -86,7 +86,7 @@ def main():
     st.markdown(
         f'''
         <div style="text-align: center; color: white;">
-            <h5 style="text-align: center;">{"Player 1's move 'X'" if st.session_state['count'] % 2 != 0 else "Player 2's move 'X'"}</h5>
+            <h5 style="text-align: center;">{"Player 1's move 'X'" if st.session_state['count'] % 2 != 0 else "Player 2's move 'O'"}</h5>
             <h6 style="text-align: center;">{st.session_state['who_win']}</h6>
             <h6 style="text-align: center;">Player 1: Player 2</h6>
             <h6 style="text-align: center;">{st.session_state['player_1']} : {st.session_state['player_2']}</h6>
